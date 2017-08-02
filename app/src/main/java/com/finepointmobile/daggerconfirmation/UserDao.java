@@ -16,5 +16,5 @@ public interface UserDao {
     List<User> getAllUsers();
 
     @Insert
-    void insertUser(User user);
+    long insertUser(User user);
 }

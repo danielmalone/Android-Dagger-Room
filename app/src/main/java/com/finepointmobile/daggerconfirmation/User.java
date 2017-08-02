@@ -23,6 +23,12 @@ public class User {
     @ColumnInfo
     private String mEmail;
 
+    public User(String firstName, String lastname, String email) {
+        mFirstName = firstName;
+        mLastname = lastname;
+        mEmail = email;
+    }
+
     public int getId() {
         return mId;
     }
